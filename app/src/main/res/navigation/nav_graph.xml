@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/allCountriesFragment">
+
+    <fragment
+        android:id="@+id/allCountriesFragment"
+        android:name="ru.kartyshova.countries.presentation.AllCountriesFragment"
+        android:label="AllCountriesFragment" >
+        <action
+            android:id="@+id/action_allCountriesFragment_to_countryItemFragment"
+            app:destination="@id/countryItemFragment">
+        <argument
+            android:name="arg"
+            app:argType="ru.kartyshova.countries.data.CountryResponse" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/countryItemFragment"
+        android:name="ru.kartyshova.countries.presentation.CountryItemFragment"
+        android:label="CountryItemFragment" />
+</navigation>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/flag"
+        android:layout_width="135dp"
+        android:layout_height="53dp"
+        tools:srcCompat="@drawable/ic_launcher_background"></ImageView>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="name"
+        android:textSize="24sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="region"
+        android:textSize="24sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/capital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="capital"
+        android:textSize="24sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/timezones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="timezones"
+        android:textSize="24sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="code"
+        android:textSize="24sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/currency_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="currency_name"
+        android:textSize="24sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="symbol"
+        android:textSize="24sp">
+    </TextView>
+
+
+</LinearLayout>
